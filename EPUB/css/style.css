@@ -1,0 +1,70 @@
+/* Base typography: Palatino for body, clean sans for titles */
+body {
+  font-family: "Palatino Linotype", "Palatino", "Book Antiqua", serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 1em;
+  color: #000;
+  background: #fff;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+/* Images: responsive, centered, semantic */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2em auto;
+}
+
+/* Semantic content blocks */
+p, ul, ol {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  padding-left: 1.2em;
+}
+
+/* Avoid awkward mid-element page breaks */
+body, section, div, p, ul, ol {
+  page-break-inside: avoid;
+}
+
+/* Page break control for front matter and content */
+.cover-image-wrapper {
+  page-break-after: always;
+}
+
+.title-page,
+.copyright-page,
+.doc-toc,
+.doc-chapter {
+  page-break-before: auto;
+  page-break-after: auto;
+}
+
+/* Optional: subtle visual refinement for logo */
+.title-page img {
+  margin: 0.8em auto 1em;
+  opacity: 0.85;
+}
+
+/* Ensure accessibility in high-contrast modes */
+@media (prefers-contrast: high) {
+  body {
+    color: #000;
+    background: #fff;
+  }
+}

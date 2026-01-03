@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>What “Born Accessible” Actually Means</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <section role="doc-chapter">
+    <h1>What “Born Accessible” Actually Means</h1>
+    <p>“Born accessible” does <strong>not</strong> mean “we’ll fix it later.”</p>
+    <p>It means:</p>
+    <ul>
+      <li>Accessibility is designed into the EPUB from the start</li>
+      <li>The file declares what it supports, truthfully, in metadata</li>
+      <li>Assistive technologies can parse structure, navigation, and content without hacks</li>
+    </ul>
+    <p>Minimum requirements include:</p>
+    <ul>
+      <li>Semantic XHTML (real headings, lists, landmarks)</li>
+      <li>Logical reading order (spine + document structure)</li>
+      <li>Text alternatives for non-text content</li>
+      <li>A proper EPUB navigation document</li>
+      <li>Accessibility metadata in <code>content.opf</code></li>
+    </ul>
+    <p>Files missing these elements are <strong>non-compliant</strong>, even if they render fine in an app.</p>
+  </section>
+</body>
+</html>

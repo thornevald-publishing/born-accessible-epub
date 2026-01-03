@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
+  <Product>
+    <RecordReference>urn:uuid:49dffeea-dca4-474a-bbdf-9466bc191e55</RecordReference>
+    <NotificationType>03</NotificationType>
+
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781234567890</IDValue>
+    </ProductIdentifier>
+
+    <DescriptiveDetail>
+      <ProductForm>EB</ProductForm>
+      <ProductFormDetail>E144</ProductFormDetail>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>BORN ACCESSIBLE</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Monoline</PersonName>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+
+      <AccessibilitySummary>This EPUB 3.3 publication is screen-reader friendly, with semantic markup, proper headings, navigation landmarks, and alt text for images.</AccessibilitySummary>
+      <AccessibilityFeature>08</AccessibilityFeature>
+      <AccessibilityFeature>09</AccessibilityFeature>
+      <AccessibilityFeature>04</AccessibilityFeature>
+      <AccessibilityConformanceLevel>06</AccessibilityConformanceLevel>
+    </DescriptiveDetail>
+
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Thornevald Publishing</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Thornevald Publishing</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>2026-01-03</Date>
+      </PublishingDate>
+    </PublishingDetail>
+
+    <ProductSupply>
+      <SupplyDetail>
+        <ProductAvailability>21</ProductAvailability>
+        <Price>
+          <PriceType>01</PriceType>
+          <PriceAmount>0.00</PriceAmount> <!-- Or 9.99 if paid -->
+          <CurrencyCode>USD</CurrencyCode>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>
