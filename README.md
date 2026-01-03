@@ -19,17 +19,17 @@ born-accessible/
 │ │ ├── cover.jpg # Cover image (1600×2500px)
 │ │ └── logo.png # Monoline logo (transparent PNG)
 │ └── text/
-│ ├── whats-happening.xhtml
-│ ├── born-accessible.xhtml
-│ ├── onix-metadata.xhtml
-│ ├── backlist.xhtml
-│ ├── what-to-do.xhtml
-│ ├── sample-files.xhtml
-│ ├── bottom-line.xhtml
-│ ├── title-page.xhtml
-│ ├── copyright.xhtml
-│ ├── cover.xhtml
-│ └── toc.xhtml
+|   ├── whats-happening.xhtml
+│   ├── born-accessible.xhtml
+│   ├── onix-metadata.xhtml
+│   ├── backlist.xhtml
+│   ├── what-to-do.xhtml
+│   ├── sample-files.xhtml
+│   ├── bottom-line.xhtml
+│   ├── title-page.xhtml
+│   ├── copyright.xhtml
+│   ├── cover.xhtml
+│   └── toc.xhtml
 ├── META-INF/
 │ └── container.xml
 ├── mimetype
